@@ -1,0 +1,3 @@
+overrides:
+  '@block-builder/ui': link:../block-builder/packages/ui
+  '@block-builder/core': link:../block-builder/packages/core

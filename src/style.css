@@ -1,0 +1,58 @@
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    padding: 50px 0;
+    background-color: aliceblue;
+}
+
+.c-template > *:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.c-text {
+    padding: 12px;
+    border-radius: 12px;
+    background-color: rgb(130, 130, 253);
+    color: #fff;
+}
+
+.c-text__inner,
+.c-text__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.c-text__title {
+    font-size: 40px;
+    line-height: normal;
+    margin: 0;
+}
+
+.c-text__img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.c-text__tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.c-text__tag {
+    padding: 4px 10px;
+    border-radius: 8px;
+    background-color: black;
+    color: azure;
+}
